@@ -14,6 +14,7 @@
 }
 
 * {
+
     margin: 0px;
     padding: 0px;
 }
@@ -104,11 +105,8 @@ div#collection{
     display: block;
     padding: 30px;
     margin: auto;
-    border-color: black;
-    border-style: solid;
-    border-width: 0.1em;
-    border-radius: 10px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.459);
+
+
 }
 div#collection h1{
     margin-bottom: 25px;
@@ -116,5 +114,19 @@ div#collection h1{
 div.collection-item{
     width: 296px;
     display: inline-block;
+    padding: 20px;
+    border-color: black;
+    border-style: solid;
+    border-width: 0.1em;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.459);
     
+}
+
+div.collection-item h2{
+    width: 260px;
+}
+
+div.collection-price-content{
+    width: 260px;
 }
