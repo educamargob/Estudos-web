@@ -1,6 +1,7 @@
 @charset "UTF-8";
 
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
 :root{
     --cor0: #E7C1F5;
@@ -11,6 +12,7 @@
 
     --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
     --fonte-destaque: 'Bebas Neue', 'cursive';
+    --fonte-destaque2: 'Bebas Neue', 'cursive';
 }
 
 * {
@@ -98,35 +100,86 @@ main{
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
 }
+div.heading{
+    margin: 20px 0px 5px 50px;
+}
+div.heading h1{
 
+    font-family: var(--fonte-destaque);
+    font-weight: normal;
+    font-size: 2.5em;
+    color:rgba(0, 0, 0, 0.623);
+}
+div.heading h1::after{
+    background-color: #c8c8c8;
+    content: "";
+    display: inline-block;
+    height: 3px;
+    position: absolute;
+    margin-top: 25px;
+    margin-left: 20px;
+    min-width: 1300px;
+}
 
 div#collection{
-    max-width: 1240px;
-    display: block;
-    padding: 30px;
-    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 10px;
+}
 
 
-}
-div#collection h1{
-    margin-bottom: 25px;
-}
 div.collection-item{
+    font-family: var(--fonte-destaque);
     width: 296px;
     display: inline-block;
-    padding: 20px;
-    border-color: black;
+    padding: 10px;
+    border-color: rgba(0, 0, 0, 0.164);
     border-style: solid;
     border-width: 0.1em;
     border-radius: 10px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.459);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.158);
     
 }
+div.collection-item img{
+    margin-left: 18px;
+}
 
-div.collection-item h2{
+h2.collection-item-name{
     width: 260px;
+    height: 32px;
+    margin-left: 18px;
+    text-align: center;
+    font-size: 2em;
+    font-weight: normal;
+    color: rgba(0, 0, 0, 0.63);
 }
 
 div.collection-price-content{
     width: 260px;
+    text-align: center;
+    margin-top: 10px;
+    padding-bottom: 20px;
+    font-size: 1.3em;
+    margin-left: 18px;
+    color: rgba(0, 0, 0, 0.63);
+}
+div.collection-price-content strong{
+    color:var(--cor2);
+}
+div.collection-price-content small{
+    
+    color:var(--cor2);
+    display:block;
+}
+div.collection-item button{
+    width: 100%;
+    height: 40px;
+    color: white;
+    margin-top: 3px;
+    border-radius: 5px;
+    border-color: var(--cor1);
+    background-color: var(--cor1);
+    font-size: 1em ;
+    font-weight: bold;
 }
