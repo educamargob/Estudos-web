@@ -27,14 +27,19 @@ body{
 }
 
 header{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
     font-size: 1em;
     min-height: 130px;
     color: white;
     background-image: linear-gradient(var(--cor0), var(--cor1));
-    padding-top: 40px;
+    padding: 20px;
+    box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.363);
 }
 
-header > h1{
+div#nome h1{
     font-family: var(--fonte-destaque);
     font-weight: normal;
     font-size: 4em;
@@ -43,9 +48,9 @@ header > h1{
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.267);
 }
 
-header > h2{
+div#nome h2{
     font-family: var(--fonte-padrao);
-    font-size: 1.2em;
+    font-size: 1em;
     margin: auto;
     text-align: center;
     max-width: 500px;
@@ -56,9 +61,9 @@ header > h2{
 }
 
 div#menu{
-    background-color: var(--cor1);
+    
     padding: 5px;
-    box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.363);
+    
 }
 
 nav{
