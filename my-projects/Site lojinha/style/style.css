@@ -138,6 +138,7 @@ div.collection-item img{
 }
 
 h2.collection-item-name{
+    font-family: var(--fonte-destaque);
     width: 260px;
     height: 32px;
     margin-left: 18px;
@@ -174,4 +175,8 @@ div.collection-item button{
     background-color: var(--cor1);
     font-size: 1em ;
     font-weight: bold;
+}
+div.collection-item button:hover{
+    border-color: var(--cor2);
+    background-color: var(--cor2);
 }
