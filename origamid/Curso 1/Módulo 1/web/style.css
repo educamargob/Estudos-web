@@ -1,0 +1,29 @@
+h1,
+a {
+  color: red;
+  text-decoration: none;
+}
+
+p a {
+  color: black;
+}
+
+div {
+  background: #aaa;
+  width: 140px;
+  height: 80px;
+  padding: 20px;
+  border: 10px solid #111;
+  margin: 30px;
+}
+
+body {
+  margin: 0;
+}
+
+h1 {
+  background: #84e;
+  padding: 20px;
+  border: 4px solid #111;
+  margin: 40px;
+}
