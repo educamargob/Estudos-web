@@ -1,0 +1,67 @@
+.habilidades{
+    background: #292929;
+}
+.habilidades .subtitulo{
+    color: #141414;
+}
+.habilidades-lista{
+    color: #F0F0F0;
+    font-size: 1.25rem;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.habilidades-lista li{
+    display: flex;
+    align-items: end;
+}
+.habilidades-lista li span{
+    width: 120px;
+    text-align: start;
+}
+.habilidades-barra{
+    margin-left: 42px;
+    width: 100%;
+    max-width: 500px;
+    height: 9px;
+    background: #F0F0F0;
+}
+.barra-interna{
+    background-image: linear-gradient(#96F6AF, #51E31D);
+    height: 100%;
+}
+
+#html{
+    width: 80%;
+}
+
+#css{
+    width: 70%;
+}
+
+#javascript{
+    width: 30%;
+}
+
+#python{
+    width: 50%;
+}
+
+#django{
+    width: 45%;
+}
+
+#sql{
+    width: 60%;
+}
+
+@media (max-width: 1200px) {
+    .habilidades-lista{
+        font-size: 1.05rem;
+    }
+    .habilidades-barra{
+        margin-left:8px;
+    }
+    
+}

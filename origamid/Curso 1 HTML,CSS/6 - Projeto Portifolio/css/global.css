@@ -26,3 +26,42 @@ img {
 .cor {
     color: #5CD17A;
 }
+.container {
+    max-width: 1200px;
+    padding: 60px 20px;
+    margin: 60px auto;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 150px;
+    align-items: center;
+}
+
+.subtitulo {
+    font-size: 8rem;
+    line-height: 1;
+    max-width: 6ch;
+    word-break: break-all;
+    text-transform: uppercase;
+}
+
+@media (max-width: 1000px) {
+    .subtitulo {
+        font-size: 7.5rem;
+        max-width: 336px;
+    }
+}
+@media (max-width: 900px) {
+    .container {
+        grid-template-columns: 1fr;
+        justify-content: center;
+        gap: 40px;
+    }
+    .subtitulo {
+        font-size: 3rem;
+        text-transform: capitalize;
+        max-width: initial;
+    }
+}
+@media (max-width: 800px) {
+}
+
