@@ -63,5 +63,9 @@
     .habilidades-barra{
         margin-left:8px;
     }
-    
+}
+@media (max-width: 900px) {
+    .habilidades .subtitulo {
+        color: #F0F0F0;
+    }
 }

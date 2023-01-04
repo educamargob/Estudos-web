@@ -55,6 +55,9 @@ img {
         grid-template-columns: 1fr;
         justify-content: center;
         gap: 40px;
+        padding: 30px 10px;
+        margin: 20px;
+
     }
     .subtitulo {
         font-size: 3rem;
