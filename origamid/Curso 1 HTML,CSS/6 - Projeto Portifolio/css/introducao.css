@@ -3,6 +3,13 @@
     line-height: 1.125;
     margin-bottom: 30px;
 }
+.introducao{
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+}
+.introducao img{
+    max-height: 400px;
+}
 
 @media (max-width: 1200px) {
     .introducao h1 {

@@ -1,10 +1,4 @@
-.experiencia-texto {
-    font-size: 1.5rem;
-    line-height: 1.33;
-    max-width: 40ch;
-    margin-bottom: 60px;
-    color: #525252;
-}
+
 .experiencia-texto strong{
     color: #141414;
 }
@@ -47,7 +41,7 @@
     font-size: 0.875rem;
     line-height: 1.4;
     color: #525252;
-    max-width: 325px;
+    max-width: 40ch;
 }
 
 .empresa-skills {
@@ -68,13 +62,6 @@
 }
 
 @media (max-width: 1000px) {
-    .experiencia-texto {
-        max-width: 560px;
-        font-size: 1.25rem;
-        line-height: 1.5;
-        margin-bottom: 40px;
-    }
-    
     .empresa-skills {
         display: flex;
         padding-top: 18px;
@@ -91,10 +78,6 @@
         color: #141414;
     }
     
-    .experiencia-texto{
-        font-size: 1.25rem;
-        margin-bottom: 50px;
-    }
     .empresa-ano {
         position: absolute;
         top: -25px;

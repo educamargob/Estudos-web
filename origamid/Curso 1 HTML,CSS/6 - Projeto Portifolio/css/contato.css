@@ -1,0 +1,89 @@
+
+.contato{
+    color: #ffffff;
+    background: #000000;
+    position: relative;
+}
+.contato .container::before{
+    content: "";
+    display: block;
+    position: absolute;
+    left: 50%;
+    top: 5%;
+    width: 4px;
+    height: 90%;
+    background-image: linear-gradient(#96F6AF, #51E31D);
+}
+
+.contato .container{
+    padding: 120px;
+    align-items: center;
+}
+
+.contato-lista{
+    grid-area: 1 / 2 / 3 / 2;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: right;
+}
+
+.contato-lista a{
+    color: #ffffff;
+}
+
+contato-direitos{
+    font-size: 1rem;
+    font-weight: normal;
+}
+
+
+@media (max-width: 1300px){
+    .contato-texto {
+        min-width: initial;
+    }
+}
+@media (max-width: 1283px) {
+    .contato .container::before{
+        content: "";
+        display: block;
+        position: absolute;
+        left: 50%;
+        top: 15%;
+        width: 4px;
+        height: 75%;
+    }
+}
+@media (max-width: 1283px) {
+    .contato .container::before{
+        content: "";
+        display: block;
+        position: absolute;
+        left: 0;
+        top: 15%;
+        width: 4px;
+        height: 75%;
+    }
+}
+@media (max-width: 1200px){
+    .formacao .subtitulo {
+        min-width: initial;
+    }
+    
+}
+@media (max-width: 1000px){
+    .contato{
+        text-align: center;
+    }
+    .contato .container{
+        gap: 80px;
+        padding: 60px 10px;
+    }
+    .contato-lista{
+        grid-area: initial;
+        text-align: center;
+        font-size: 1.35rem;
+    }
+}

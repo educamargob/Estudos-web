@@ -17,13 +17,13 @@
     align-items: end;
 }
 .habilidades-lista li span{
-    width: 120px;
+    width: 15ch;
     text-align: start;
 }
 .habilidades-barra{
     margin-left: 42px;
     width: 100%;
-    max-width: 500px;
+    max-width: 80%;
     height: 9px;
     background: #F0F0F0;
 }
