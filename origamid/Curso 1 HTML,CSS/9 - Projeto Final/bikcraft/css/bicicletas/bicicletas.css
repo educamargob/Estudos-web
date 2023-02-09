@@ -1,0 +1,7 @@
+.bicicletas {
+    padding: 120px 0;
+}
+.bicicletas-item {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
