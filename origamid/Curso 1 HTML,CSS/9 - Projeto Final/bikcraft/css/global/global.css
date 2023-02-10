@@ -23,6 +23,10 @@ img {
     display: block;
 }
 
-img [src$=".jpg"]{
+[src$=".jpg"]{
     border-radius: 4px;
+}
+
+main [src$=".svg"]{
+    max-width: 24px;
 }
