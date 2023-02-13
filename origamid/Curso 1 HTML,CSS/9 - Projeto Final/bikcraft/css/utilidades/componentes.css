@@ -1,6 +1,10 @@
 .logo {
     max-width: 100%;
 }
+
+img.w-32 {
+    max-width: 32px;
+}
 .container {
     box-sizing: border-box;
     max-width: 1200px;
